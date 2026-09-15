@@ -1,0 +1,13 @@
+{
+  "name": "peta-interaktif",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "bun run dev.ts",
+    "dev:backend": "cd backend && bun run src/index.ts",
+    "dev:frontend": "cd frontend && bun run dev"
+  }
+}
